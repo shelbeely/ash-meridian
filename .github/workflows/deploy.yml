@@ -1,0 +1,58 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Validate JSON
+      run: |
+        find src/data -name "*.json" -exec jq -e '.' {} \;
+
+    - name: Check TypeScript
+      run: |
+        tsc --noEmit
+
+    - name: Lint (if ESLint present)
+      run: |
+        if [ -f ".eslintrc.json" ]; then
+          npx eslint .
+        fi
+
+    - name: Build static site
+      run: |
+        mkdir -p dist
+        cp -r assets/* dist/
+        cp index.html dist/index.html
+
+    - name: Deploy to GitHub Pages
+      uses: actions/checkout@v4
+      with:
+        persist-credentials: false
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
+        publish_branch: main
+        force_orphan: true
+        cname: ash-meridian.github.io
+        cname: ash-meridian.github.io
+        publish_branch: main
