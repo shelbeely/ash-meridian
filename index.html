@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ash Meridian</title>
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/theme.css">
+  <link rel="icon" href="assets/img/icon.png" type="image/png">
+  <script type="module" src="src/main.ts"></script>
+  <script type="module">
+    window.addEventListener('load', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const seed = urlParams.get('seed');
+      if (seed) {
+        window.gameSeed = parseInt(seed, 10);
+      }
+    });
+  </script>
+</head>
+<body class="bg-gray-900 text-white">
+  <div id="app" class="w-full h-screen overflow-hidden">
+    <div id="loading-screen" class="absolute inset-0 bg-black flex flex-col items-center justify-center z-50">
+      <div class="text-white text-2xl font-bold mb-4">Ash Meridian</div>
+      <div class="text-gray-400">Loading...</div>
+      <div class="mt-4">
+        <div class="w-16 h-16 border-4 border-gray-400 border-t-white rounded-full animate-spin"></div>
+      </div>
+    </div>
+  </div>
+  <div id="error-screen" class="absolute inset-0 bg-black flex flex-col items-center justify-center z-50 hidden">
+    <div class="text-red-400 text-2xl font-bold mb-4">Critical Error</div>
+    <div id="error-message" class="text-gray-400 text-center max-w-md"></div>
+    <button id="retry-button" class="mt-4 px-4 py-2 bg-gray-700 text-white rounded">Retry</button>
+  </div>
+  <div id="dialogue-container" class="absolute inset-0 z-40 pointer-events-none">
+    <div id="dialogue-panel" class="absolute bottom-0 left-0 w-full max-w-2xl bg-black bg-opacity-90 border-t border-gray-600 p-4 text-white z-50">
+      <div id="dialogue-content" class="text-lg mb-4"></div>
+      <div id="dialogue-options" class="grid grid-cols-2 gap-2"></div>
+    </div>
+  </div>
+  <div id="combat-container" class="absolute inset-0 z-30 pointer-events-none">
+    <div id="combat-panel" class="absolute top-2 left-1/2 transform -translate-x-1/2 w-full max-w-2xl bg-black bg-opacity-90 border-t border-gray-600 p-4 text-white z-40">
+      <div id="combat-content" class="text-lg mb-4"></div>
+      <div id="combat-targets" class="grid grid-cols-2 gap-2"></div>
+      <button id="combat-act" class="mt-4 px-4 py-2 bg-red-700 text-white rounded">Act</button>
+    </div>
+  </div>
+  <div id="pause-screen" class="absolute inset-0 bg-black bg-opacity-90 flex flex-col items-center justify-center z-50 pointer-events-none">
+    <div class="text-white text-2xl font-bold mb-4">Paused</div>
+    <div class="mt-4">
+      <div class="grid grid-cols-2 gap-2">
+        <button id="resume-button" class="px-4 py-2 bg-gray-700 text-white rounded">Resume</button>
+        <button id="save-button" class="px-4 py-2 bg-gray-700 text-white rounded">Save</button>
+        <button id="load-button" class="px-4 py-2 bg-gray-700 text-white rounded">Load</button>
+        <button id="options-button" class="px-4 py-2 bg-gray-700 text-white rounded">Options</button>
+      </div>
+    </div>
+  </div>
+  <script src="src/main.js"></script>
+</body>
+</html>
