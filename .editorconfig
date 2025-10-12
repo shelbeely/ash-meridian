@@ -1,0 +1,624 @@
+[root]
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+max_line_length = 100
+
+[*.json]
+indent_style = space
+indent_size = 2
+
+[*.js]
+indent_style = space
+indent_size = 2
+
+[*.ts]
+indent_style = space
+indent_size = 2
+
+[*.css]
+indent_style = space
+indent_size = 2
+
+[*.html]
+indent_style = space
+indent_size = 2
+
+[*.svg]
+indent_style = space
+indent_size = 2
+
+[*.png]
+indent_style = space
+indent_size = 2
+
+[*.jpg]
+indent_style = space
+indent_size = 2
+
+[*.webp]
+indent_style = space
+indent_size = 2
+
+[*.gif]
+indent_style = space
+indent_size = 2
+
+[*.ico]
+indent_style = space
+indent_size = 2
+
+[*.ttf]
+indent_style = space
+indent_size = 2
+
+[*.otf]
+indent_style = space
+indent_size = 2
+
+[*.woff]
+indent_style = space
+indent_size = 2
+
+[*.woff2]
+indent_style = space
+indent_size = 2
+
+[*.mp3]
+indent_style = space
+indent_size = 2
+
+[*.wav]
+indent_style = space
+indent_size = 2
+
+[*.ogg]
+indent_style = space
+indent_size = 2
+
+[*.mp4]
+indent_style = space
+indent_size = 2
+
+[*.mov]
+indent_style = space
+indent_size = 2
+
+[*.webm]
+indent_style = space
+indent_size = 2
+
+[*.avi]
+indent_style = space
+indent_size = 2
+
+[*.mkv]
+indent_style = space
+indent_size = 2
+
+[*.m4a]
+indent_style = space
+indent_size = 2
+
+[*.flac]
+indent_style = space
+indent_size = 2
+
+[*.mpg]
+indent_style = space
+indent_size = 2
+
+[*.mpeg]
+indent_style = space
+indent_size = 2
+
+[*.wma]
+indent_style = space
+indent_size = 2
+
+[*.aac]
+indent_style = space
+indent_size = 2
+
+[*.m4v]
+indent_style = space
+indent_size = 2
+
+[*.weba]
+indent_style = space
+indent_size = 2
+
+[*.3gp]
+indent_style = space
+indent_size = 2
+
+[*.3g2]
+indent_style = space
+indent_size = 2
+
+[*.amr]
+indent_style = space
+indent_size = 2
+
+[*.opus]
+indent_style = space
+indent_size = 2
+
+[*.flv]
+indent_style = space
+indent_size = 2
+
+[*.swf]
+indent_style = space
+indent_size = 2
+
+[*.psd]
+indent_style = space
+indent_size = 2
+
+[*.ai]
+indent_style = space
+indent_size = 2
+
+[*.eps]
+indent_style = space
+indent_size = 2
+
+[*.svgz]
+indent_style = space
+indent_size = 2
+
+[*.zip]
+indent_style = space
+indent_size = 2
+
+[*.tar]
+indent_style = space
+indent_size = 2
+
+[*.gz]
+indent_style = space
+indent_size = 2
+
+[*.rar]
+indent_style = space
+indent_size = 2
+
+[*.7z]
+indent_style = space
+indent_size = 2
+
+[*.xlsx]
+indent_style = space
+indent_size = 2
+
+[*.csv]
+indent_style = space
+indent_size = 2
+
+[*.xls]
+indent_style = space
+indent_size = 2
+
+[*.ods]
+indent_style = space
+indent_size = 2
+
+[*.docx]
+indent_style = space
+indent_size = 2
+
+[*.doc]
+indent_style = space
+indent_size = 2
+
+[*.odt]
+indent_style = space
+indent_size = 2
+
+[*.pdf]
+indent_style = space
+indent_size = 2
+
+[*.tex]
+indent_style = space
+indent_size = 2
+
+[*.ps]
+indent_style = space
+indent_size = 2
+
+[*.rtf]
+indent_style = space
+indent_size = 2
+
+[*.txt]
+indent_style = space
+indent_size = 2
+
+[*.log]
+indent_style = space
+indent_size = 2
+
+[*.sh]
+indent_style = space
+indent_size = 2
+
+[*.bat]
+indent_style = space
+indent_size = 2
+
+[*.cmd]
+indent_style = space
+indent_size = 2
+
+[*.ps1]
+indent_style = space
+indent_size = 2
+
+[*.rb]
+indent_style = space
+indent_size = 2
+
+[*.py]
+indent_style = space
+indent_size = 2
+
+[*.swift]
+indent_style = space
+indent_size = 2
+
+[*.go]
+indent_style = space
+indent_size = 2
+
+[*.java]
+indent_style = space
+indent_size = 2
+
+[*.cs]
+indent_style = space
+indent_size = 2
+
+[*.vb]
+indent_style = space
+indent_size = 2
+
+[*.php]
+indent_style = space
+indent_size = 2
+
+[*.pl]
+indent_style = space
+indent_size = 2
+
+[*.r]
+indent_style = space
+indent_size = 2
+
+[*.dart]
+indent_style = space
+indent_size = 2
+
+[*.coffee]
+indent_style = space
+indent_size = 2
+
+[*.less]
+indent_style = space
+indent_size = 2
+
+[*.sass]
+indent_style = space
+indent_size = 2
+
+[*.scss]
+indent_style = space
+indent_size = 2
+
+[*.styl]
+indent_style = space
+indent_size = 2
+
+[*.vue]
+indent_style = space
+indent_size = 2
+
+[*.ts]
+indent_style = space
+indent_size = 2
+
+[*.tsx]
+indent_style = space
+indent_size = 2
+
+[*.jsx]
+indent_style = space
+indent_size = 2
+
+[*.mjs]
+indent_style = space
+indent_size = 2
+
+[*.cjs]
+indent_style = space
+indent_size = 2
+
+[*.json5]
+indent_style = space
+indent_size = 2
+
+[*.jsonc]
+indent_style = space
+indent_size = 2
+
+[*.xml]
+indent_style = space
+indent_size = 2
+
+[*.xhtml]
+indent_style = space
+indent_size = 2
+
+[*.html5]
+indent_style = space
+indent_size = 2
+
+[*.htm]
+indent_style = space
+indent_size = 2
+
+[*.wasm]
+indent_style = space
+indent_size = 2
+
+[*.webmanifest]
+indent_style = space
+indent_size = 2
+
+[*.ico]
+indent_style = space
+indent_size = 2
+
+[*.webmanifest]
+indent_style = space
+indent_size = 2
+
+[*.yaml]
+indent_style = space
+indent_size = 2
+
+[*.yml]
+indent_style = space
+indent_size = 2
+
+[*.toml]
+indent_style = space
+indent_size = 2
+
+[*.ini]
+indent_style = space
+indent_size = 2
+
+[*.properties]
+indent_style = space
+indent_size = 2
+
+[*.env]
+indent_style = space
+indent_size = 2
+
+[*.gitignore]
+indent_style = space
+indent_size = 2
+
+[*.gitattributes]
+indent_style = space
+indent_size = 2
+
+[*.gitmodules]
+indent_style = space
+indent_size = 2
+
+[*.hbs]
+indent_style = space
+indent_size = 2
+
+[*.handlebars]
+indent_style = space
+indent_size = 2
+
+[*.mustache]
+indent_style = space
+indent_size = 2
+
+[*.erb]
+indent_style = space
+indent_size = 2
+
+[*.jade]
+indent_style = space
+indent_size = 2
+
+[*.pug]
+indent_style = space
+indent_size = 2
+
+[*.slim]
+indent_style = space
+indent_size = 2
+
+[*.haml]
+indent_style = space
+indent_size = 2
+
+[*.ejs]
+indent_style = space
+indent_size = 2
+
+[*.d.ts]
+indent_style = space
+indent_size = 2
+
+[*.d.ts.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.js]
+indent_style = space
+indent_size = 2
+
+[*.d.js.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.json]
+indent_style = space
+indent_size = 2
+
+[*.d.json.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.yaml]
+indent_style = space
+indent_size = 2
+
+[*.d.yaml.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.yml]
+indent_style = space
+indent_size = 2
+
+[*.d.yml.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.toml]
+indent_style = space
+indent_size = 2
+
+[*.d.toml.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.ini]
+indent_style = space
+indent_size = 2
+
+[*.d.ini.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.env]
+indent_style = space
+indent_size = 2
+
+[*.d.env.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.gitignore]
+indent_style = space
+indent_size = 2
+
+[*.d.gitignore.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.gitattributes]
+indent_style = space
+indent_size = 2
+
+[*.d.gitattributes.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.gitmodules]
+indent_style = space
+indent_size = 2
+
+[*.d.gitmodules.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.hbs]
+indent_style = space
+indent_size = 2
+
+[*.d.hbs.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.handlebars]
+indent_style = space
+indent_size = 2
+
+[*.d.handlebars.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.mustache]
+indent_style = space
+indent_size = 2
+
+[*.d.mustache.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.erb]
+indent_style = space
+indent_size = 2
+
+[*.d.erb.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.jade]
+indent_style = space
+indent_size = 2
+
+[*.d.jade.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.pug]
+indent_style = space
+indent_size = 2
+
+[*.d.pug.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.slim]
+indent_style = space
+indent_size = 2
+
+[*.d.slim.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.haml]
+indent_style = space
+indent_size = 2
+
+[*.d.haml.txt]
+indent_style = space
+indent_size = 2
+
+[*.d.ejs]
+indent_style = space
+indent_size = 2
+
+[*.d.ejs.txt]
+indent_style = space
+indent_size = 2
